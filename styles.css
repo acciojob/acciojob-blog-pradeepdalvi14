@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+#heading {
+            
+            text-align: center;
+        }
+#topic {
+    color: purple; /* Set the text color to purple */
+     /* Add an underline to the text */
+}
+	
+.image{
+	height:200px;
+	width:300px;
+}
+.link1{
+	color:blue;
+	font-weight: bold;
+}
+.llink1{
+	color:purple;
+	font-weight: bold;
+}
+.para{
+	text-decoration:underline;
+	color:blue;
+	font-size:small;
+}
+.lpara{
+	text-decoration:underline;
+	color:purple;
+	font-size:small;
+}
