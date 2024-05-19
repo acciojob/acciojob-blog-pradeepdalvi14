@@ -1,7 +1,25 @@
 /*  your css code here. If applicable */
-#heading {
-            
-            text-align: center;
+.marquee {
+            width: 100%; /* Full width */
+            overflow: hidden; /* Hide the overflow */
+            position: relative;
+            white-space: nowrap; /* Prevent the text from wrapping */
+        }
+
+        .marquee h1 {
+            display: inline-block;
+            position: absolute;
+            will-change: transform;
+            animation: marquee 10s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
         }
 #topic {
     color: purple; /* Set the text color to purple */
@@ -10,7 +28,7 @@
 	
 .image{
 	height:200px;
-	width:300px;
+	
 }
 .link1{
 	color:blue;
